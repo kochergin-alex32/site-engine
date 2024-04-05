@@ -1,0 +1,13 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.user-block, .block-info, .exect-cards{
+border: 1px solid black;
+}
+.center{
+    
+    display: flex;
+    justify-content: center;
+}
