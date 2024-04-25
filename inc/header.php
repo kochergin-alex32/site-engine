@@ -8,12 +8,13 @@
     <title>
         <?php
         // if(isset($_GET['page'])){
-        //     echo  $_GET['page'];
-        // }
-        echo (isset($_GET['page'])) ? $_GET['page'] : "";
-        
-         ?>
+            //     echo  $_GET['page'];
+            // }
+            echo (isset($_GET['page'])) ? $_GET['page'] : "";
+            
+            ?>
     </title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
