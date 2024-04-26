@@ -19,10 +19,28 @@
 </head>
 <body>
     <!-- создем структуру -->
-    <header class="header">
+    <header class="header container">
+        <div class="content">
+            <div class="header-logo footer-logo ">
+                <a href="?page=main-page" >
+                    <img class="logo" src="/assets/img/it-avatar.png" alt="">
+                </a>
+            </div>
+            <div class="header-search">
+                <a href="">категории</a>
+                <input type="text" >
+            </div>
+            <div class=" header-login footer-buttons">
+            
+                <a href="?page=user-card">понеслась</a>
+                
+              
+            </div>
+        </div>
         <!-- прописываем в сыылку путь -->
-        <a href="?page=main-page"> logo</a>
-        <a href="?page=user-card">carduser</a>
+        <!-- <a href="?page=main-page"> logo</a> -->
+        <!-- <a href="?page=user-card">carduser</a> -->
+
         <!-- <a href="?page=index"> index</a>
         <a href="?page=contacts">contacts</a>
         <a href="?page=about">about</a> -->
